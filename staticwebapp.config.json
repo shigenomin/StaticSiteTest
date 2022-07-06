@@ -4,5 +4,10 @@
             "route": "/*",
             "allowedRoles": ["admin"]
         }
-    ]
+    ],
+    "responseOverrides": {
+        "404": {
+            "redirect": "/"
+        }
+    }
 }
